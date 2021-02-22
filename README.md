@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Snoolite: a light-weight reddit client made with React.
+
+Please go to snoolite.web.app to use the app. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
