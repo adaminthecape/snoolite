@@ -1,0 +1,14 @@
+.about-app {
+    padding: 2em;
+}
+.about-app .custom {
+    padding: 8px 16px;
+    margin: 12px 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.8);
+}
+.lightMode .about-app .custom {
+    background: rgba(0,0,0,0.05);
+}
+.darkMode .about-app .custom {
+    background: rgba(255,255,255,0.05);
+}

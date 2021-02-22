@@ -1,0 +1,187 @@
+.af-comment.main-post {
+    background: rgba(255,255,255,0.05);
+    padding: 8px;
+    border: 1px solid #663399;
+    margin-bottom: 16px;
+}
+.af-comment {
+    margin-bottom: 8px;
+    height: auto;
+}
+.af-comment .link {
+    cursor: pointer;
+    color: blue;
+}
+.af-comment .author-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 0.9em;
+}
+.af-comment .title-row {
+    font-weight: 600;
+}
+.af-comment .body-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.af-comment .body-text * {
+    white-space: pre-wrap;
+}
+.lightMode .af-comment .body-text blockquote {
+    color: green;
+}
+.darkMode .af-comment .body-text blockquote {
+    color: limegreen;
+}
+.af-comment .opts-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+.af-comment .points {
+    color: rgba(255,50,150,1);
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    border-radius: 16px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.af-comment .author {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+.af-comment .time {
+    color: rebeccapurple;
+}
+.darkMode .af-comment .author {
+    color: deeppink;
+}
+.darkMode .af-comment .time {
+    color: #aaaaaa;
+}
+.af-comment .opts {
+    color: #454545;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.af-comment a {
+    text-decoration: none;
+}
+.lightMode .af-comment a {
+    color: rebeccapurple;
+}
+.darkMode .af-comment a {
+    color: #ff69b4ee;
+}
+.af-comment .expander {
+    cursor: pointer;
+}
+.af-comment .opts span {
+    margin: 0 4px;
+    cursor: pointer;
+}
+.af-comment .opts span:hover {
+    color: deeppink;
+}
+.lightMode .af-comment .fav_sticker {
+    color: royalblue;
+}
+.darkMode .af-comment .fav_sticker {
+    color: #61dafb;
+}
+.lightMode .af-comment .body-text code {
+    background: rgba(0,0,0,0.07);
+}
+.darkMode .af-comment .body-text code {
+    background: rgba(255,255,255,0.07);
+    color: #dedede;
+}
+
+@media only screen and (max-width: 700px) {
+    .lightMode .af-comment {
+        padding: 4px;
+        background: rgba(0,0,0,0.02);
+        border-left: 2px solid
+        rgba(0,0,0,0.15);
+    }
+    .darkMode .af-comment {
+        padding: 4px;
+        background: rgba(255,255,255,0.01);
+        border-left: 2px solid
+        rgba(255,255,255,0.2);
+    }
+    .lightMode .af-comment:hover {
+        border-left: 2px solid
+        rgba(0,0,0,0.3);
+    }
+    .darkMode .af-comment:hover {
+        border-left: 2px solid
+        rgba(255,255,255,0.4);
+    }
+    .af-comment.expanded {
+        height: auto;
+        overflow: revert;
+    }
+    .af-comment.collapsed {
+        height: 32px !important;
+        overflow: hidden;
+    }
+    .lightMode .af-comment .body-text blockquote {
+        border-left: 1px solid
+        rgba(0,0,0,0.6);
+        padding-left: 4px;
+        background: rgba(0,0,0,0.05);
+    }
+    .darkMode .af-comment .body-text blockquote {
+        border-left: 1px solid
+        rgba(255,255,255,0.2);
+        padding-left: 4px;
+        background: rgba(255,255,255,0.05);
+    }
+}
+@media only screen and (min-width: 701px) {
+    .lightMode .af-comment {
+        padding: 8px;
+        background: rgba(0,0,0,0.02);
+        border-left: 8px solid
+        rgba(0,0,0,0.15);
+    }
+    .darkMode .af-comment {
+        padding: 8px;
+        background: rgba(255,255,255,0.01);
+        border-left: 8px solid
+        rgba(255,255,255,0.2);
+    }
+    .lightMode .af-comment:hover {
+        border-left: 8px solid
+        rgba(0,0,0,0.3);
+    }
+    .darkMode .af-comment:hover {
+        border-left: 8px solid
+        rgba(255,255,255,0.4);
+    }
+    .af-comment.expanded {
+        height: auto;
+        overflow: revert;
+    }
+    .af-comment.collapsed {
+        height: 36px !important;
+        overflow: hidden;
+    }
+    .lightMode .af-comment .body-text blockquote {
+        border-left: 4px solid
+        rgba(0,0,0,0.2);
+        padding-left: 4px;
+        background: rgba(0,0,0,0.05);
+    }
+    .darkMode .af-comment .body-text blockquote {
+        border-left: 4px solid
+        rgba(255,255,255,0.2);
+        padding-left: 4px;
+        background: rgba(255,255,255,0.05);
+    }
+}

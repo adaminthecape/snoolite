@@ -1,0 +1,17 @@
+.af-loading-bar {
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 1em auto;
+}
+.lightMode .af-loading-bar {
+    color: #454545;
+}
+.darkMode .af-loading-bar {
+    color: #dedede;
+}
+.af-loading-bar .filler {
+    height: auto;
+    background: cornflowerblue;
+    width: 1%;
+}

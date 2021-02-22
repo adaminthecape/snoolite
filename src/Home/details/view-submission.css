@@ -1,0 +1,36 @@
+.view-post .loading_progress {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: rebeccapurple;
+    text-align: center;
+}
+.view-post .sortOptions > span {
+    font-size: 0.8em;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.view-post .sortOptions > span.selected {
+    color: deeppink;
+}
+.view-post .additionalInfo div {
+    display: inline;
+    margin: 0 4px;
+}
+.view-post .additionalInfo {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+}
+.gilded {
+    border-radius: 2em;
+    padding: 4px 16px;
+    background: rgba(255,215,0,0.4);
+}
+.subLink {
+    color: deeppink;
+    cursor: pointer;
+}

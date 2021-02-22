@@ -1,0 +1,15 @@
+.twelvestore section {
+    margin: 8px 16px;
+}
+.twelvestore .lightMode p {
+    color: #282c34;
+}
+.twelvestore .darkMode p {
+    color: #61dafb;
+}
+.twelvestore .wideInput label {
+    width: 5em;
+}
+.twelvestore .wideInput input {
+    width: 12em;
+}

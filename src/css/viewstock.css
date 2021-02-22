@@ -1,0 +1,67 @@
+/**** START: STOCKS ****/
+.msft {
+    background-image: url("../assets/msft.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 530px;
+    width: 100%;
+    margin: 0 auto;
+}
+.stockContainer {
+    margin: 4px;
+    padding: 4px;
+}
+.stockContainer .companyTitle {
+    font-size: x-large;
+}
+.stockContainer .exchange {
+    color: #454545;
+}
+.stockContainer .ticker {
+    text-decoration: underline;
+    color: deepskyblue;
+    cursor: pointer;
+}
+.closingInfo {
+    color: #454545;
+    margin-top: 0.5em;
+}
+.stockContainer .closingPrice {
+    font-size: large;
+    font-weight: bold;
+}
+.stockContainer .currencyCode {}
+.stockContainer .closingGain {}
+.stockContainer .closingGainPercent {}
+.stockContainer .closingDate {}
+.stockContainer .afterHours {}
+.stockContainer .graph {
+    margin: 0.5em;
+}
+.stockContainer .dailyInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.stockContainer .dailyInfo > div {
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dailyInfo > div > span:nth-of-type(1) {
+    color: red;
+    width: 6em;
+    background: rgba(200,0,0,0.1);
+    padding: 4px 8px;
+    text-align: center;
+}
+.dailyInfo > div > span:nth-of-type(2) {
+    width: 6em;
+    color: blue;
+    background: rgba(0,200,0,0.1);
+    padding: 4px 8px;
+    text-align: center;
+}
+/**** END: STOCKS ****/

@@ -1,0 +1,56 @@
+.myOptions .optionContainer {
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+.myOptions h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.lightMode .myOptions {
+}
+.lightMode .optionContainer {
+    background: #eee;
+}
+.lightMode .optionButton {
+    flex-grow: 1;
+    padding: 8px;
+    text-align: center;
+}
+.lightMode .optionButton:hover {
+    cursor: pointer;
+    background: #666;
+}
+.lightMode .optionButton.selected {
+    color: blue;
+    background: rgba(0,0,0,0.2);
+}
+
+.darkMode .myOptions {
+    color: #dedede;
+}
+.darkMode .optionContainer {
+    background: #444;
+}
+.darkMode .optionButton {
+    flex-grow: 1;
+    padding: 8px;
+    text-align: center;
+}
+.darkMode .optionButton:hover {
+    cursor: pointer;
+    background: #666;
+}
+.darkMode .optionButton.selected {
+    color: #61dafb;
+    background: rgba(255,255,255,0.2);
+}
+.optionContainer .data-usage {
+    padding: 1em;
+}
+.optionContainer .data-usage .stats {
+    font-size: 0.8em;
+}

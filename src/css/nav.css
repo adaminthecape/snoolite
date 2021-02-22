@@ -1,0 +1,75 @@
+/**** START: NAV TABS ****/
+nav.nav-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 6vh;
+    max-height: 36px;
+    min-height: 36px;
+    user-select: none;
+}
+.nav-group .nav-tab {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 36px;
+    line-height: 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-top: 2px solid rgba(0,0,0,0);
+}
+@media only screen and (max-height:700px) {
+    .component {
+        overflow-y: revert;
+        height: auto;
+        max-height: revert;
+    }
+}
+
+.lightMode .nav-group .nav-tab {
+    color: #454545;
+    background-color: #aaaaaa;
+}
+.lightMode .nav-group .nav-tab:hover {
+    background: linear-gradient(
+            180deg, #ccc, #eee);
+    border-top: 2px solid orangered;
+    text-decoration: none;
+}
+.lightMode .nav-group .isActive {
+    cursor: pointer;
+    border-top: 2px solid deeppink;
+    background: linear-gradient(
+            180deg, #aaa, #eee);
+    color: mediumblue;
+}
+.lightMode .nav-group .isActive:hover {
+    background: linear-gradient(
+            180deg, #aaa, #eee);
+    text-decoration: none;
+}
+
+.darkMode .nav-group .nav-tab {
+    color: #dedede;
+    background-color: #484848;
+}
+.darkMode .nav-group .nav-tab:hover {
+    background: linear-gradient(
+            180deg, #222, #444);
+    cursor: pointer;
+    border-top: 2px solid orangered;
+    text-decoration: none;
+}
+.darkMode .nav-group .isActive {
+    cursor: pointer;
+    border-top: 2px solid deeppink;
+    background: linear-gradient(
+            180deg, #444, #222);
+    color: #dedede;
+}
+.darkMode .nav-group .isActive:hover {
+    background: linear-gradient(
+            180deg, #444, #222);
+    text-decoration: none;
+}
